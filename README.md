@@ -3,6 +3,12 @@ A repository filled with useful bits of information and scripts. The name comes 
 
 This repository is divided up by topic, such as programming language or operating system.
 
+## CSS
+- [Media Types](https://github.com/jedi58/ossus/blob/master/css/mediaTypes.md)
+
+## Linux
+- [Exclude Resources From Logfile](https://github.com/jedi58/ossus/blob/master/linux/excludeResourcesFromLogfile.md)
+
 ## Mac OS X
 - [Clean up ~/Downloads](https://github.com/jedi58/ossus/blob/master/mac/cleanupDownloads.md)
 
