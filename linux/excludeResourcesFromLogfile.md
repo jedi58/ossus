@@ -1,6 +1,6 @@
 # Exclude Resources from Logfile
 
-If you've got a HTTP, IIS, or other access log that you need to review you can easily exclude resources (images, javascript, stylesheets, etc.) using the following:
+If you've got a HTTP, IIS, or other access log that you need to review and/or perform some analysis on you can easily exclude resources (images, javascript, stylesheets, etc.) using the following:
 
 ```bash
 grep -vE '\.(css|jpe?g|png|ico|js|eot|gif|wof|svg)'
