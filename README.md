@@ -4,6 +4,7 @@ A repository filled with useful bits of information and scripts. The name comes 
 This repository is divided up by topic, such as programming language or operating system.
 
 ## CSS
+- [Disable Text Selection](https://github.com/jedi58/ossus/blob/master/css/disableTextSelection.md)
 - [Media Types](https://github.com/jedi58/ossus/blob/master/css/mediaTypes.md)
 
 ## Linux
