@@ -1,4 +1,4 @@
-# Find the Oldest and the Newest Files in a Folder
+# Finding Files by Time
 
 To find the newest file in a folder:
 ```bash
