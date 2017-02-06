@@ -1,3 +1,5 @@
+# Allow Cross-Origin by Domain
+
 The following will set the CORS policy to allow other specific domains to request resources
 
 ```apache
