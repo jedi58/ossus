@@ -7,6 +7,7 @@ The following will set the CORS policy to allow other specific domains to reques
     <IfModule mod_headers.c>
         SetEnvIf Origin "http(s)?://(www\.)?(my-domain\.co\.uk|my-other-domain\.co\.uk)$" AccessControlAllowOrigin=$0
         Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+        Header always set Vary Origin
     </IfModule>
 </FilesMatch>
 ```
