@@ -1,6 +1,6 @@
 # Allow Cross-Origin by Domain
 
-The following will set the CORS policy to allow other specific domains to request resources
+The following will set the CORS policy to allow other specific domains to request resources. This is currently useful when browsing sites with multiple domains that don't specify a CORS policy, but are being browsed using Chrome 52 - 55 inclusive.
 
 ```apache
 <FilesMatch "\.(ttf|otf|eot|woff|css|js)$">
