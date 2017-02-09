@@ -11,3 +11,5 @@ The following will set the CORS policy to allow other specific domains to reques
     </IfModule>
 </FilesMatch>
 ```
+
+A good resource for reading more on CORS policies is https://enable-cors.org/
