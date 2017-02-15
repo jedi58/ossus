@@ -18,4 +18,4 @@ Memory usage is in bytes, and expiry time is the number of seconds since the UNI
 echo "stats slabs" | nc localhost 11211
 ```
 
-This will then output something like `STAT active_slabs 38`.
+This will then output something like `STAT active_slabs 38`. A good resource for interacting with `memcached` is http://lzone.de/cheat-sheet/memcached
