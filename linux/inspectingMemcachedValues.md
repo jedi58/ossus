@@ -3,10 +3,10 @@
 You can interact with `memcached` using `telnet` though to display everything you can use `nc` (NetCat) with the below:
 
 ```bash
-echo "stats cachedump 5 0" | nc localhost 11211 | more
+echo "stats cachedump 5 0" | nc localhost 11211 | sed -e 's/\[/\[ /g' | sort -k4 -n | more
 ```
 
-This will output the contents of `memcached` in the format of:
+This will output the contents of `memcached`, sorted by ascending memory usage, in the format of:
 
 ```
 ITEM <<key>> [<<memory usage>> b; <<expiry-time>> s]
