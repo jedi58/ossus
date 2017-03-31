@@ -12,3 +12,5 @@ RewriteRule ^(.*)$ /maintenance/html [R=307,L]
 ```
 
 This uses a `307 Temporary Redirect` to avoid Chrome (and other browsers) caching the redirect for longer than is necessary. When testing that the URI being requested is not `maintenance.html` you may also want to ensure it's not an image, CSS or other resource required by your maintenance page.
+
+By having this in it's conf file it can be dropped in and out quickly as required.
