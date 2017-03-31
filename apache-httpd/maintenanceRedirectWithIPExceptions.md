@@ -29,4 +29,4 @@ RewriteCond %{REQUEST_URI} !\/maintenance.html
 RewriteRule ^(.*)$ /maintenance/html [R=307,L]
 ```
 
-This means that the site would then be down between 07:30 and 08:00 on 11th October 2017.
+This means that the site would then be down between 07:30 and 08:00 on 11th October 2017. Further improvements to this might include getting the "up" and "down" times from a file (Which could be written to from a CMS) or replacing `%{TIME}` with a check to see if a particular file exists. This latter option would mean your CMS solution would need to handle the writing and removing of this file at the specified times.
