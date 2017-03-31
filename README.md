@@ -5,6 +5,8 @@ This repository is divided up by topic, such as programming language or operatin
 
 ## Apache HTTPD
  - [Allow Cross-Origin by Domain](apache-httpd/allowCrossOriginByDomain.md)
+ - [Expiring Content with Apache mod_expire](apache-httpd/contentExpiry.md)
+ - [Maintenance Redirect with IP Exceptions](apache-httpd/maintenanceRedirectWithIPExceptions.md)
 
 ## CSS
  - [Disable Text Selection](css/disableTextSelection.md)
