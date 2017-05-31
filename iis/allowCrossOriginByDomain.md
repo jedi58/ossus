@@ -2,7 +2,7 @@
 
 The following will set the CORS policy to allow other specific domains to request resources. This is useful when browsing sites with multiple domains that don't specify a CORS policy, don't redirect to a canonical URL, and are being browsed using Chrome 52+ (see https://bugs.chromium.org/p/chromium/issues/detail?id=633729). This is due to an empty header in a preflight request that will lock down the use of resources to the same origin when `X-FRAME-OPTIONS` is also set to `SAMEORIGIN`. When using IIS this can be done withing .NET code by defining a service policy, or it can be done in the `web.config` such as below.
 
-*web.config*
+**web.config**
 ```iis
 <system.webServer>
   <httpProtocol>
