@@ -19,7 +19,7 @@ This repository is divided up by topic, such as programming language or operatin
 
 ## Mac OS X
  - [Clean up ~/Downloads](mac/cleanupDownloads.md)
- - [Check for 32-bit Applications] (mac/checkFor32BitApplications.md)
+ - [Check for 32-bit Applications](mac/checkFor32BitApplications.md)
 
 ## PHP
  - [Lint All PHP Files in a Folder](php/lintAllFiles.md)
