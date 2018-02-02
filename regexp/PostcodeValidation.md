@@ -1,4 +1,4 @@
-```
+```regexp
 [A-PR-UWYZ][A-HK-Y]?[0-9]{1,2}[A-HJKSTUW]?\s?[0-9][ABD-HJLNP-UW-Z]{2}
 ```
 **Note:** This will verify the syntax for a postcode is correct, not that the postcode itself exists.
