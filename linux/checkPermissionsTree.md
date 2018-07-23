@@ -1,3 +1,5 @@
+# Check Permissions Tree
+
 Sometimes you need to figure out where an access control issue lies in the file-system. The following command will work backwards through the path displaying the permissions.
 ```bash
 namei -l <full-path-to-file-or-folder>
