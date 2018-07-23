@@ -13,6 +13,7 @@ This repository is divided up by topic, such as programming language or operatin
  - [Media Types](css/mediaTypes.md)
 
 ## Linux
+ - [Check Permissions Tree](linux/checkPermissionsTree.md)
  - [Exclude Resources From Logfile](linux/excludeResourcesFromLogfile.md)
  - [Find Files by Time](linux/findingFilesByTime.md)
  - [Inspecting `memcached` Values](linux/inspectingMemcachedValues.md)
