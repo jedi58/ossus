@@ -14,3 +14,8 @@ To get the number of files created in a specific day/month/year; example files c
 ```
 ls --full-time | grep -i '2016-' | wc -l
 ```
+
+To find (and delete) files older than a number of days:
+```
+find /path/to/files/ mtime +1 -exec rm {} \;
+```
