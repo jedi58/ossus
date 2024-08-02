@@ -14,3 +14,4 @@ The mount the drive:
 ```
 wsl --mount \\.\<<DEVICEID>>
 ```
+You can then view the drive under Explorer as Linux, or in wsl under the `/mnt` location
