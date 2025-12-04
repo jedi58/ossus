@@ -7,10 +7,16 @@ echo $'\e[1;97;44m
 \e[0m'
 
 CSV_URL="https://raw.githubusercontent.com/wiz-sec-public/wiz-research-iocs/main/reports/shai-hulud-2-packages.csv"
-CSV_FILE="$(mktemp)"
+CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/wiz-ioc"
+mkdir -p "$CACHE_DIR"
+CSV_FILE="$CACHE_DIR/ioc-list.csv"
 
-echo "→ Downloading latest Wiz IOC package list…"
-curl -sSL "$CSV_URL" -o "$CSV_FILE"
+if [ ! -f "$CSV_FILE" ] || find "$CSV_FILE" -mmin +60 | grep -q .; then
+    echo "→ Downloading latest Wiz IOC package list…"
+    curl -sSL "$CSV_URL" -o "$CSV_FILE"
+else
+  echo "→ Using cached Wiz IOC package list…"
+fi
 
 if [ ! -f package-lock.json ]; then
     echo "❌ package-lock.json not found — please run npm install first."
