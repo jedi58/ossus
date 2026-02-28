@@ -2,7 +2,7 @@ param(
     [string]$defaultUrl = "https://example.com",
     [int]$Repeat = 5
 )
-WriteHost "Usage: latency_test.ps1 [url] [repeats]"
+Write-Host "Usage: latency_test.ps1 [url] [repeats]"
 Write-Host "`n--- Connection Latency Test ---" -ForegroundColor Cyan
 Write-Host "Target: $defaultUrl"
 Write-Host "Running $Repeat sequential requests...`n"
